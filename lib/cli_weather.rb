@@ -1,6 +1,6 @@
-require "cli_weather/version"
+require_relative "Weather/version"
 
-module CliWeather
+module Weather
   class Error < StandardError; end
   # Your code goes here...
 end

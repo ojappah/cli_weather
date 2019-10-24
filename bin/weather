@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require './lib/cli_weather'
+Weather::CLI.new.call
